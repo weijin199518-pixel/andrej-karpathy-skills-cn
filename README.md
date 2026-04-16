@@ -297,7 +297,8 @@ chore: 构建/工具链相关
 
 - **Issues**: [提交问题](https://github.com/weijin199518-pixel/andrej-karpathy-skills-cn/issues)
 - **Discussions**: [参与讨论](https://github.com/weijin199518-pixel/andrej-karpathy-skills-cn/discussions)
-- **微信**: 添加微信 `weiguopei` 备注「CLAUDE」加入交流群
+- **微信**: 添加微信 `a123wgp` 备注「CLAUDE」加入交流群
+- **邮箱**: weijin199518@gmail.com
 
 ---
 
