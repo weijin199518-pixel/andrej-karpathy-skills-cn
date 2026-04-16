@@ -3,9 +3,9 @@
 <div align="center">
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Stars](https://img.shields.io/github/stars/weiguopei/andrej-karpathy-skills-cn?style=social)
-![Forks](https://img.shields.io/github/forks/weiguopei/andrej-karpathy-skills-cn?style=social)
-![Issues](https://img.shields.io/github/issues/weiguopei/andrej-karpathy-skills-cn)
+![Stars](https://img.shields.io/github/stars/weijin199518-pixel/andrej-karpathy-skills-cn?style=social)
+![Forks](https://img.shields.io/github/forks/weijin199518-pixel/andrej-karpathy-skills-cn?style=social)
+![Issues](https://img.shields.io/github/issues/weijin199518-pixel/andrej-karpathy-skills-cn)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 **一个文件，让 Claude 秒懂中文开发者的规矩**
@@ -63,38 +63,48 @@
 
 ---
 
-## 📦 安装与使用
+## ⚡ 5分钟快速开始
 
-### 方式 1：Claude Code 插件（推荐）
-
-```bash
-# 添加插件市场
-/plugin marketplace add forrestchang/andrej-karpathy-skills
-
-# 安装插件
-/plugin install andrej-karpathy-skills@karpathy-skills
-```
-
-### 方式 2：项目级 CLAUDE.md
-
-#### 新项目
+### 方式 1：直接下载（最简单）
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/weiguopei/andrej-karpathy-skills-cn/main/CLAUDE.md
+# 下载到当前项目
+curl -o CLAUDE-CN.md https://raw.githubusercontent.com/weijin199518-pixel/andrej-karpathy-skills-cn/main/CLAUDE-CN.md
+
+# 或者用 wget
+wget https://raw.githubusercontent.com/weijin199518-pixel/andrej-karpathy-skills-cn/main/CLAUDE-CN.md
 ```
 
-#### 现有项目（追加到现有 CLAUDE.md）
+### 方式 2：手动下载
+
+1. 点击下载 → [CLAUDE-CN.md](https://raw.githubusercontent.com/weijin199518-pixel/andrej-karpathy-skills-cn/main/CLAUDE-CN.md)
+2. 保存到项目根目录
+3. 开始使用 Claude，自动生效 ✨
+
+### 方式 3：追加到现有 CLAUDE.md
+
+如果你已经有 `CLAUDE.md` 文件：
 
 ```bash
-echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/weiguopei/andrej-karpathy-skills-cn/main/CLAUDE.md >> CLAUDE.md
+echo "\n" >> CLAUDE.md
+curl https://raw.githubusercontent.com/weijin199518-pixel/andrej-karpathy-skills-cn/main/CLAUDE-CN.md >> CLAUDE.md
 ```
 
-#### 手动下载
+### ✅ 验证是否生效
 
-1. 下载 [CLAUDE.md](./CLAUDE.md)
-2. 放到项目根目录
-3. 开始使用 Claude，自动生效
+让 Claude 执行以下任务，观察它的行为：
+
+```javascript
+// 任务：给这个函数添加错误处理
+function getUserData() {
+  // 获取用户数据
+  return fetch('/api/user').then(res => res.json())
+}
+```
+
+**有 CLAUDE-CN.md**：Claude 会保留中文注释，只添加必要的 try-catch
+
+**没有 CLAUDE-CN.md**：Claude 可能删除注释，还会重构整个函数
 
 ---
 
@@ -285,8 +295,9 @@ chore: 构建/工具链相关
 
 ## 📮 联系方式
 
-- **Issues**: [提交问题](https://github.com/weiguopei/andrej-karpathy-skills-cn/issues)
-- **Discussions**: [参与讨论](https://github.com/weiguopei/andrej-karpathy-skills-cn/discussions)
+- **Issues**: [提交问题](https://github.com/weijin199518-pixel/andrej-karpathy-skills-cn/issues)
+- **Discussions**: [参与讨论](https://github.com/weijin199518-pixel/andrej-karpathy-skills-cn/discussions)
+- **微信**: 添加微信 `weiguopei` 备注「CLAUDE」加入交流群
 
 ---
 
